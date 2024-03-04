@@ -13,23 +13,23 @@ p,
 h2 {
   font-size: 35px;
   font-weight: 700px;
-  line-height: 28px;
+  line-height: 1.5;
 }
 h1 {
   font-size: 72px;
   font-weight: 700;
-  line-height: 75px;
+  line-height: 70px;
 }
 p {
   font-size: 18px;
   font-weight: 400px;
-  line-height: 30px;
+  line-height: 1.5;
 }
 .primary-button {
   background: white;
   color: #272142;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.5;
   border-radius: 4px;
   padding: 12px 20px;
 }
@@ -37,14 +37,7 @@ p {
   border: 1px solid #272142;
   color: #272142;
   font-size: 12px;
-  line-height: 17px;
   border-radius: 4px;
-  line-height: 27px;
+  line-height: 1.5;
   padding: 12px 20px;
-}
-@media (max-width: 960px) {
-  .project-description {
-    padding: 120px 60px;
-    text-align: center;
-  }
 }
