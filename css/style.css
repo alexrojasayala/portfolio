@@ -1,4 +1,36 @@
-body {
-  background-color: black;
+.hero {
+  background: #282323;
   color: white;
+  text-align: center;
+  padding: 150px 15px;
+}
+h1,
+h2,
+p,
+.primary-button {
+  font-family: "Bebas Neue", sans-serif;
+}
+p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 75px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.primary-button {
+  background: white;
+  color: #272142;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
