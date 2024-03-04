@@ -10,9 +10,9 @@ p,
 .primary-button {
   font-family: "Bebas Neue", sans-serif;
 }
-p {
-  font-size: 24px;
-  font-weight: 700;
+h2 {
+  font-size: 35px;
+  font-weight: 700px;
   line-height: 28px;
 }
 h1 {
@@ -20,9 +20,9 @@ h1 {
   font-weight: 700;
   line-height: 75px;
 }
-h2 {
+p {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 30px;
 }
 .primary-button {
@@ -31,6 +31,20 @@ h2 {
   font-size: 14px;
   line-height: 17px;
   border-radius: 4px;
+  padding: 12px 20px;
+}
+.secondary-button {
+  border: 1px solid #272142;
+  color: #272142;
+  font-size: 12px;
+  line-height: 17px;
+  border-radius: 4px;
   line-height: 27px;
   padding: 12px 20px;
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 120px 60px;
+    text-align: center;
+  }
 }
