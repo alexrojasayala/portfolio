@@ -12,6 +12,7 @@ h1,
 h2,
 h3,
 p,
+nav,
 .primary-button {
   font-family: "Bebas Neue", sans-serif;
 }
@@ -39,7 +40,7 @@ p {
   padding: 12px 20px;
 }
 .secondary-button {
-  border: 1px solid #272142;
+  background-color: white;
   color: #272142;
   font-size: 12px;
   border-radius: 4px;
@@ -53,6 +54,29 @@ p {
 .content-container h1 {
   font-size: 50px;
   line-height: 1;
+}
+.logo {
+  max-width: 130px;
+}
+nav {
+  padding: 15px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 5px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: white;
+  text-decoration: none;
 }
 @media (max-width: 900px) {
   h1 {
