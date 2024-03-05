@@ -10,6 +10,7 @@ body {
 }
 h1,
 h2,
+h3,
 p,
 .primary-button {
   font-family: "Bebas Neue", sans-serif;
@@ -45,16 +46,19 @@ p {
   line-height: 1.5;
   padding: 12px 20px;
 }
-.about-section-content {
+.content {
   padding: 150px 15px;
   margin: 30px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 50px;
   line-height: 1;
 }
 @media (max-width: 900px) {
-  .about-section {
+  h1 {
+    font-size: 20px;
+  }
+  .content {
     text-align: center;
     padding: 0;
   }
